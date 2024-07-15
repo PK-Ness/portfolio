@@ -5,7 +5,7 @@
     position: fixed;
     color: white;
     border-radius: 10px 10px 0% 0%;
-    
+    margin-top:-4rem;
   }
   .links{
     font-family: sans-serif;
@@ -25,12 +25,20 @@
       margin-right: 30px;
     }
     .welcome{
-      padding-top: 10rem;
+      padding-top: 15rem;
       text-align: center;
       font-size: 75px;
       font-family: Calibri, sans-serif;
       color: rgb(239, 224, 224);
       text-shadow: 2px 2px 2px rgb(91, 88, 88);
+    }
+    p{
+        text-align: center;
+        margin-top: -4rem;
+        color:rgb(239, 224, 224);
+        font-family: Calibri, sans-serif;
+        padding-bottom: 18rem;;
+
     }
     a{
       text-decoration: none;
@@ -45,4 +53,10 @@
     }
     #projects{  background-color: 
     rgba(133, 221, 51, 0.943)
+    }
+    .project-title{
+        text-align: center;;
+        font-family: Calibri, sans-serif;
+        color: white;
+        text-shadow: 2px 2px 2px rgb(91, 88, 88);
     }
