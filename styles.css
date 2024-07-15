@@ -7,7 +7,7 @@
     border-radius: 10px 10px 0% 0%;
     margin-top:-4rem;
   }
-  .links{
+.links{
     font-family: sans-serif;
     list-style-type: none;
     font-size: 30px;
@@ -17,14 +17,14 @@
     margin-left: 40px;
     margin-top: 1.45rem;
         }
-    body{
+body{
       background-color: rgb(2, 47, 2);
     }
-    .personal{
+.personal{
       float: right;
       margin-right: 30px;
     }
-    .welcome{
+.welcome{
       padding-top: 15rem;
       text-align: center;
       font-size: 75px;
@@ -32,7 +32,7 @@
       color: rgb(239, 224, 224);
       text-shadow: 2px 2px 2px rgb(91, 88, 88);
     }
-    p{
+p{
         text-align: center;
         margin-top: -4rem;
         color:rgb(239, 224, 224);
@@ -40,28 +40,46 @@
         padding-bottom: 1rem;
 
     }
-    a{
+a{
       text-decoration: none;
       color: white;
     }
    
-    a:visited{
+ a:visited{
       color: white;
     }
-    a:active{
+ a:active{
       color: rgb(239, 64, 64);
     }
-    #projects{  background-color: 
+#projects{  background-color: 
     rgba(133, 221, 51, 0.943)
     }
-    .project-title{
+.project-title{
         text-align: center;;
         font-family: Calibri, sans-serif;
         color: white;
         text-shadow: 2px 2px 2px rgb(91, 88, 88);
         
     }
-    .notes{
+.notes{
     padding-top: 5rem;
     
     }
+.socials{
+    font-family: Calibri, sans-serif;
+    list-style-type: none;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(91, 88, 88);
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 1.3rem;
+}
+#socials-title{
+    color: white;
+    font-family: Calibri, sans-serif;
+    text-shadow: 2px 2px 2px rgb(91, 88, 88);
+}
+footer{
+    font-weight: bold;
+    
+}
