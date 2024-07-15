@@ -1,0 +1,48 @@
+#navbar{
+    background-color: rgb(1, 35, 9);
+    height: 120px;
+    width: 100vw;
+    position: fixed;
+    color: white;
+    border-radius: 10px 10px 0% 0%;
+    
+  }
+  .links{
+    font-family: sans-serif;
+    list-style-type: none;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px rgb(91, 88, 88);
+    display: inline-block;
+    justify-content: space-evenly;
+    margin-left: 40px;
+    margin-top: 1.45rem;
+        }
+    body{
+      background-color: rgb(2, 47, 2);
+    }
+    .personal{
+      float: right;
+      margin-right: 30px;
+    }
+    .welcome{
+      padding-top: 10rem;
+      text-align: center;
+      font-size: 75px;
+      font-family: Calibri, sans-serif;
+      color: rgb(239, 224, 224);
+      text-shadow: 2px 2px 2px rgb(91, 88, 88);
+    }
+    a{
+      text-decoration: none;
+      color: white;
+    }
+   
+    a:visited{
+      color: white;
+    }
+    a:active{
+      color: rgb(239, 64, 64);
+    }
+    #projects{  background-color: 
+    rgba(133, 221, 51, 0.943)
+    }
