@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="eng"></html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Are You A Videogames Fan?</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="title">Are You a Videogames Fan?</h1>
+    <p id="description"><em>Let us know how much you love videogames!</em></p>
+  <form id="survey-form" method="post">
+    <fieldset>
+<label id="name-label" for="full-name">Enter your full name:  <input placeholder="Your name here." id="name" type="text" required/></label>
+<label id="email-label" for="email">Enter your email: <input placeholder="Your email here." id="email" type="email" required /></label>
+<label id="number-label" for="phone-number"> Enter your phone number (Optional): <input placeholder="Your phone number here." type="phone" id="phone" name="phone" pattern="\(d{2}\) \d{10)" /></label>
+</fieldset>
+<fieldset>
+<label for="favorite">Which is your favorite console system?
+  <label><input name="fave" value="sony" type="checkbox" class="input-checkbox"/>Sony PlayStation 5</label>
+  <label><input name="fave" value="nintendo" type="checkbox" class="input-checkbox"/>Nintendo Switch</label>
+  <label><input name="fave" value="microsoft" type="checkbox" class="input-checkbox"/>Microsoft XBox One</label>
+  <label><input name="fave" value="pc" type="checkbox" class="input-checkbox"/>PC</label>
+<label for="dropdown">How many consoles do you have?
+<select id="dropdown">
+  <option value="">(Choose the number)</option>
+  <option value="1">One</option>
+  <option value="2">Two</option>
+  <option value="3">Three</option>
+  <option value="4">Four or more</option>
+</select>
+</label>
+    </fieldset>
+  <fieldset>
+        <p class=>Do you buy games regularly? (required)</legend>
+        <label for="true-yes"><input id="true-yes" type="radio" name="purchase" class="inline" value="affirmative" checked /> Yes</label>
+        <label for="false-no"><input id="false-no" type="radio" name="purchase" class="inline" value="negative" /> No</label>
+        <label for="gamefav">Tell us about your favorite games:
+          <textarea id="write-favorite" name="write-favorite" rows="5" cols="30" placeholder="My favorite games to play are..."></textarea>
+        </label>
+      </fieldset>
+  <input id="submit" type="submit" value="Submit"></input>
+    </form>
+    </body>
