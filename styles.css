@@ -1,21 +1,32 @@
+@media (max-width: 600px) {
+    #navbar {
+      justify-content: space-evenly;
+      font-size: 15px;
+    }
+    .links{
+        font-size: 15px;
+    }
+    }
 #navbar{
     background-color: rgb(1, 35, 9);
-    height: 120px;
+    max-height: 18vw;
     width: 100vw;
     position: fixed;
     color: white;
     border-radius: 10px 10px 0% 0%;
     margin-top:-4rem;
   }
+  
 .links{
     font-family: sans-serif;
     list-style-type: none;
-    font-size: 30px;
+    font-size: 3vw;
     text-shadow: 2px 2px 2px rgb(91, 88, 88);
     display: inline-block;
     justify-content: space-evenly;
     margin-left: 40px;
     margin-top: 1.45rem;
+    flex-wrap: wrap;
         }
 body{
       background-color: rgb(2, 47, 2);
@@ -108,4 +119,7 @@ a{
 .project-container{
     display: flex;
     justify-content: space-evenly;
+}
+.title-projects{
+    display: inline-block;
 }
