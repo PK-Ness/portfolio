@@ -48,7 +48,7 @@ body{
         margin-top: -4rem;
         color:rgb(239, 224, 224);
         font-family: Calibri, sans-serif;
-        padding-bottom: 1rem;
+        padding-bottom: 10rem;
 
     }
 a{
@@ -119,12 +119,8 @@ a{
     .skyline{
        display: flex;
        text-align: center;
-       padding-top:
-    }
-    .title-projects, .skyline{
-        margin-top: 
-    }
-    p{
+           }
+        p{
         margin-top: 299px;
     }
 .notes{
